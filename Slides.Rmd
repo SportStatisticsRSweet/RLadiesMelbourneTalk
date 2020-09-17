@@ -1,0 +1,22 @@
+---
+output:
+  xaringan::moon_reader:
+    css: ["C:/Users/e5104072/Documents/GitHub/SportStatisticsRSweet.github.io/VictoriaUniversity.css",     
+          "C:/Users/e5104072/Documents/GitHub/SportStatisticsRSweet.github.io/VictoriaUniversity.css"]
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: 16:9 
+      
+---
+class: title-slide
+background-image: url(https://raw.githubusercontent.com/SportStatisticsRSweet/WCSF_WorkshopInR/master/WhittenOval.jpg)
+background-size: cover 
+.center[ 
+# R (for research)  <br><br> How is R beneficial for <br> reproducibility in research?
+   
+## Alice Sweeting, PhD  
+] 
+
+  
