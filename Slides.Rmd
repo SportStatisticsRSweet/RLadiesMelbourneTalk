@@ -1,8 +1,7 @@
 ---
 output:
   xaringan::moon_reader:
-    css: ["C:/Users/e5104072/Documents/GitHub/SportStatisticsRSweet.github.io/VictoriaUniversity.css",     
-          "C:/Users/e5104072/Documents/GitHub/SportStatisticsRSweet.github.io/VictoriaUniversity.css"]
+    css: ["VictoriaUniversity.css", "VictoriaUniversity-fonts.css"]
     nature:
       highlightStyle: github
       highlightLines: true
@@ -13,10 +12,32 @@ output:
 class: title-slide
 background-image: url(https://raw.githubusercontent.com/SportStatisticsRSweet/WCSF_WorkshopInR/master/WhittenOval.jpg)
 background-size: cover 
-.center[ 
-# R (for research)  <br><br> How is R beneficial for <br> reproducibility in research?
+.left[ 
+# Sport, Data & R
    
 ## Alice Sweeting, PhD  
+
+#### R-Ladies Melbourne <br> Monday 21st September, 2020
 ] 
 
-  
+<img class="logoposR", src="WBLogo.png", width=3.5%> 
+<br>
+<img class="logoposRB", src="VU_iHES.png", width=20%>
+ 
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE, knitr.table.format = "html")
+knitr::opts_chunk$set(fig.retina = 3, warning = FALSE, message = FALSE)
+library(icon)      
+library(tidyverse) 
+library(emo) 
+library(fontawesome)
+
+# <img class="logoposLB" src="TrackLogo.png", width=16%>   
+```
+
+```{r xaringan-logo, echo=FALSE}
+xaringanExtra::use_logo(
+  image_url = "https://github.com/TrackVU/TrackVU.github.io/blob/master/MicroUnits/TRAIN_WORD.png?raw=true",
+  link_url = "https://www.trackvu.com/",
+)
+```
